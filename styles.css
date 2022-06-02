@@ -1,0 +1,210 @@
+body{
+    background-color:#f1f1f1;
+    color: #b700ff;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    color: rgb(140, 0, 255);
+    text-decoration: none;
+}
+
+        a:hover{
+            color: rgb(0, 0, 255);
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: aqua;
+        }
+
+        a:visited{
+            color: rgb(118, 0, 148);
+        }
+
+h1 {
+    font-family: MistoBook, sans-serif;
+    color: #ff0080;
+    }
+
+h2 {
+    font-family: MistoBook, sans-serif;
+    color: #ff00bf;
+}
+
+
+
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    /*box-shadow: 1px 0px 10px rgba(84, 61, 61, 0.35);*/
+}
+
+.info{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+    .info p{
+        color: rgb(140, 0, 255);
+        margin: 0;
+    }
+
+.info-text{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+strong {
+    color: #d900ff;
+    text-transform: uppercase;
+}
+
+
+/*
+.social{
+    background: #dbfcb2;
+    /* padding: 25px;*/
+    /*padding: 15px 40px;
+    border: 5px solid blueviolet;
+    border-bottom-width: 12px;
+    margin: 30px;
+} */
+
+/*
+.box-model > div{
+    float: left;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    border: 4px solid blueviolet;
+    width: 25%;
+    box-sizing: border-box;
+}
+*/
+
+.container{
+    padding-top: 30px;
+    max-width: 75%;
+    margin: auto;
+}
+
+.bg-yellow{
+    background: #fff9dc;
+}
+
+.bg-green{
+    background: #d7ffda;
+}
+
+.bg-candy{
+    background: #ffe8e1;
+}
+
+.bg-creamy{
+    background: #f5cfff;
+    position: relative;
+}
+
+.card{
+    padding: 20px 40px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.list{
+    padding: 0 20px;
+}
+
+.list li{
+    list-style: url(star.png);
+    margin-bottom: 10px;
+
+}
+
+.table{
+width: 100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(1){
+    color: #ff8c00;
+}
+
+
+
+.contact{
+    margin: 20px;
+    padding: 20px;
+    /*text-align: center;*/
+}
+
+.contact h2{
+    margin-right: 30px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input {
+
+margin-bottom: 30px;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 30%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid blueviolet;
+    color: black;
+    
+    padding: 15px 0px 10px ;
+    outline: none;
+    font-family: inherit;
+
+}
+
+
+.btn{
+    color: #8800ff;
+    background-color: rgb(255, 247, 136);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 2px solid #8400ff;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+opacity: 0.9;
+}
+
+
+.box{
+    position: absolute;
+    left: 600px;
+    top: 80px;
+    width: 350px;
+}
+
+@media (max-width:700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.prikol {
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+}

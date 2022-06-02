@@ -1,0 +1,12 @@
+body{
+    background-color:#f1f1f1;
+    color: #b700ff;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+.smile li {
+    list-style: url(naughty.png);
+}
